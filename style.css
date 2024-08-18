@@ -1,0 +1,82 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+section {
+    background-color: hsl(0, 0%, 12%);
+    max-width: 400px;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+section div {
+    margin-bottom: 16px;
+}
+
+section img {
+    border-radius: 50%;
+    height: 80px;
+}
+
+section div {
+    line-height: 1rem;
+}
+
+section h1 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+section span {
+    color: hsl(75, 94%, 57%);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+section ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 352px;
+}
+
+section ul li {
+    background-color:hsl(0, 0%, 18%);
+    font-size: 1.2rem;
+    padding: 0.8rem 0px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+section ul li:hover {
+    background-color: hsl(0, 0%, 26%);
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+}
+
+.attribution {
+    display: none;
+}
